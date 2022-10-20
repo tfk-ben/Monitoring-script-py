@@ -1,0 +1,33 @@
+
+===============================
+Website Monitoring Script with Python
+===============================
+
+This script gonna check your app web .
+if he find it not workng he'll send you a mail and try to restart it.
+if he couldn't so the instance is't accessible he'll reboot the instance and restart the container of the app .
+
+To lanche the script you need to :
+
+- install requirements :
+
+.. code-block:: sh
+
+    $ pip install -r requirements.txt
+
+- Add the variables inside the script.
+
+- Export your email and password but before that you should generate a password for your gmail in this link (https://myaccount.google.com/apppasswords )
+.. code-block:: sh
+
+    $ export EMAIL_ADDRESS="...@gmail.com"
+    $ export EMAIL_PASSWORD="generated password"
+ 
+ 
+- Lanche the script with : 
+
+.. code-block:: sh
+
+    $ python3 monitoring.py
+
+    
