@@ -68,7 +68,7 @@ def reboot_ec2_instance():
 def monitor_app():
     try:    
         response = requests.get('https://www.google.com/') #url of the website
-        if False:
+        if response.status_code == 200:
             print('app is runing')
         else:
             print('App down , fix it')
