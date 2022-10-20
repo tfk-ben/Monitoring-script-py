@@ -1,0 +1,6 @@
+requests==2.25.1
+schedule==1.1.0
+paramiko==2.9.3
+boto3==1.24.89
+botocore==1.27.89
+yagmail==0.15.293
